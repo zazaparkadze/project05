@@ -6,7 +6,7 @@ export default function Home() {
     <div className=" group dark: text-white p-3 m-3 flex justify-center items-center gap-5 md:flex-col">
       <ProfilePic />
       <p className="text-3xl mt-10 mb-10 text-center">
-        Hello and Welecome, 👋 &nbsp;
+        Hello and Welcome, 👋 &nbsp;
         <span className="whitespace-nowrap">I am Zaza</span>
       </p>
       <div
