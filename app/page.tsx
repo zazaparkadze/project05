@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ProfilePic from "./components/ProfilePic";
 import GeoLocation from "./components/GeoLocation";
+import BlogPosts from "./components/BlogPosts";
 
 export default function Home() {
   return (
@@ -19,27 +20,36 @@ export default function Home() {
         >
           <ul>
             <li className="brightness-70 hover:brightness-150">
-              <Link href={"http://project01-gold.vercel.app"} target="_blank">
+              <Link href={"https://project01-gold.vercel.app"} target="_blank">
                 JsonPlaceholder
               </Link>
             </li>
             <li className="brightness-70 hover:brightness-150">
-              <Link href={"http://project02-gold.vercel.app"} target="_blank">
+              <Link href={"https://project02-gold.vercel.app"} target="_blank">
                 WikiRocket
               </Link>
             </li>
             <li className="brightness-70 hover:brightness-150">
               <Link
-                href={"http://project03-gold-mocha.vercel.app"}
+                href={"https://project03-gold-mocha.vercel.app"}
                 target="_blank"
               >
                 Weather Api
+              </Link>
+            </li>
+            <li className="brightness-70 hover:brightness-150">
+              <Link
+                href={"https://site-search-lilac.vercel.app"}
+                target="_blank"
+              >
+                Site-Search
               </Link>
             </li>
           </ul>
         </div>
       </div>
       <GeoLocation />
+      <BlogPosts />
     </div>
   );
 }

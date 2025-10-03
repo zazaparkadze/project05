@@ -36,6 +36,14 @@ export default function NavBar() {
                 Weather Api
               </Link>
             </li>
+            <li className="hover:underline">
+              <Link
+                href={"http://site-search-lilac.vercel.app"}
+                target="_blank"
+              >
+                Site Search
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

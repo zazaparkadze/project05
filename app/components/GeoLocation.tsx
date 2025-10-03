@@ -44,9 +44,17 @@ export default function GeoLocation() {
 
   return (
     <div>
-      <button onClick={() => getLocation()} className="text-4xl text-center">
-        Get Your Coordinates.
-      </button>
+      <div className="group">
+        <button
+          onClick={() => getLocation()}
+          className="text-4xl text-center hover:text-amber-500 hover::"
+        >
+          Get Your Coordinates.
+        </button>
+        <span className="relative opacity-0 group-hover:opacity-100 right-3 text-2xl mask-l-from-neutral-800 border-2 border-amber-500 px-4 font-semibold">
+          click
+        </span>
+      </div>
       <p
         id="demo"
         className={clsx({
